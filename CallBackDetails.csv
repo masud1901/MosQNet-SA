@@ -1,0 +1,7 @@
+Callback,Description
+EarlyStopping,Stops training if validation loss does not improve for 20 epochs to prevent overfitting.
+ModelCheckpoint,Saves the best model (based on validation loss) to 'best_model.h5'.
+TensorBoard,Logs training/validation metrics and model architecture to TensorBoard.
+ReduceLROnPlateau,"Reduces learning rate by 0.2 if validation loss does not improve for 10 epochs, with a minimum of 1e-6."
+CSVLogger,Logs training/validation metrics to 'training.log' CSV file.
+LearningRateScheduler,Reduces learning rate by 0.9 every 10 epochs during training.

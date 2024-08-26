@@ -1,0 +1,8 @@
+Augmentation Techniques,Description
+Width Shift Range,Shift the width by up to 10%
+Height Shift Range,Shift the height by up to 10%  
+Shear Range,Apply shear transformation by 10%
+Zoom Range,Apply zoom transformation by 10%
+Horizontal Flip,Enable horizontal flipping
+Fill Mode,Nearest neighbor filling mode
+Preprocessing Function,Applies the 'preprocess_input' function to the image
