@@ -23,6 +23,9 @@ Sources:
 The curated dataset used in this study is available on Kaggle:
 [MosQNet-SA Dataset on Kaggle](https://www.kaggle.com/datasets/masud1901/mosquito-dataset-for-classification-cnn/data)
 
+These are the sample mosquito images
+![MosQNet-SA Architecture](MosQNet-SA/mosquito_pic.png)
+
 
 ## Methodology
 

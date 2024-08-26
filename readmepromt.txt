@@ -18,9 +18,10 @@ from these images we meticulously selected the best ones for our purpose. the mo
 
 3. CULEX : 1000 images.
 
+here uses any pic from the figure directory
+
+
 then I used transfer learning method .it contains baseline models analysis with thse
-
-
 
 
 
@@ -38,6 +39,7 @@ and then thruough these analysis i came up with my new mdoel MosQNet-SA
 
 which has this architecture
 
+use a figure from the figure directory
 
 # Initial Conv Layer
 x = Conv2D(32, (3, 3), padding='same', kernel_initializer=he_normal())(inputs)
