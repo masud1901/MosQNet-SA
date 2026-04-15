@@ -6,6 +6,22 @@ MosQNet-SA is a novel deep learning model designed for accurate classification o
 
 ![MosQNet-SA Architecture](figures/MosQNet_Model_Architecture.png)
 
+## Repository Structure
+
+```text
+MosQNet-SA/
+├── notebooks/
+│   ├── baselines/         # Transfer learning baseline model notebooks
+│   ├── mosqnet_sa/        # Main MosQNet-SA training notebook
+│   ├── experiments/       # Architecture variant experiments
+│   ├── evaluation/        # Evaluation notebooks (e.g., ROC analysis)
+│   └── xai/               # Explainability notebooks
+├── figures/               # Figures used in paper and README
+├── MosQNet-SA/            # Model artifacts and additional project assets
+├── XAI_on_MosQNetSA/      # XAI-related model artifact(s)
+└── README.md
+```
+
 ## Dataset
 
 The dataset comprises 3,000 meticulously selected and annotated mosquito images:
