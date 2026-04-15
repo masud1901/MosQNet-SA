@@ -4,8 +4,6 @@
 
 MosQNet-SA is a novel deep learning model designed for accurate classification of mosquito species. This project focuses on distinguishing between three primary mosquito species: Anopheles, Aedes, and Culex, which are significant vectors for various diseases.
 
-![MosQNet-SA Architecture](figures/MosQNet_Model_Architecture.png)
-
 ## Repository Structure
 
 ```text
