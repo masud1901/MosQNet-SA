@@ -123,18 +123,26 @@ MosQNet-SA demonstrates superior performance in mosquito species classification,
 - Explore deployment on edge devices for real-time classification
 - Investigate the model's performance in real-world scenarios
 
-<!-- ## Citation -->
+## Citation
 
-<!-- If you use this work in your research, please cite: -->
-<!-- 
-```
-@article{YourName2024MosQNetSA,
-  title={MosQNet-SA: Advanced Deep Learning for Mosquito Species Classification},
-  author={Your Name},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2024}
+If you use this work in your research, please cite:
+
+```bibtex
+@article{10.1371/journal.pone.0344970,
+    doi = {10.1371/journal.pone.0344970},
+    author = {Masud, Md. Akmol AND Akter, Sanjida AND Sultana, Nadia AND Islam, Mohammad Shahidul AND Abu Yousuf, Mohammed AND Noori, Farzan M. AND Uddin, Md Zia},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {MosQNet-SA: Explainable convolutional-attention network for mosquito classification with application as a RESTful API for dengue and malaria risk mapping},
+    year = {2026},
+    month = {04},
+    volume = {21},
+    url = {https://doi.org/10.1371/journal.pone.0344970},
+    pages = {1-30},
+    abstract = {Mosquito-borne diseases represent a significant global health challenge. Over 700,000 people succumb to mosquito-borne diseases annually, highlighting the important need for accurate and efficient mosquito classification systems. Current approaches face limitations in accuracy, computational efficiency, and interpretability, creating a gap that artificial intelligence can help address. This paper presents MosQNet-SA, a novel convolutional-attention network designed for mosquito classification that addresses these limitations through architectural choices. The proposed model incorporates a spatial attention mechanism and depthwise separable convolutions to enhance feature extraction while maintaining computational efficiency—achieving comparable performance with 10-fold fewer parameters than existing approaches. MosQNet-SA achieves 99.42% accuracy on a dataset of 1,000 images across three mosquito species (Aedes, Anopheles, and Culex), demonstrating strong performance compared to existing CNN architectures. The model’s explainability is enhanced through multiple methods, including Saliency, GradCAM, LIME, and Kernel SHAP, providing valuable insights into the decision-making process for public health practitioners. Additionally, we present a RESTful API implementation for real-time mosquito classification and disease risk mapping, demonstrating the practical applicability of our approach in public health surveillance systems.},
+    number = {4},
 }
-``` -->
+```
 
 ## License
 
